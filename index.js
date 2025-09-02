@@ -2,7 +2,7 @@ import { readFile, writeFile } from 'fs/promises';
 import { createServer } from 'http';
 import path from 'path';
 
-const PORT = 3000;
+const PORT = 3000 | 3001;
 
 const DATA_File = path.join('data','links.json')
 
