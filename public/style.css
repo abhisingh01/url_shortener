@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #b3b3b3;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentContainer{
+    width: 25vw;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.textInput{
+    padding: 0.3rem;
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+
+.btn{
+    margin-bottom: 1rem;
+    background: #5514b4;
+    color: white;
+    padding: 8px;
+    border: 1px solid #5514b4;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.urlText{
+    margin: 1rem 0rem;
+}
+
+.heading{
+    margin: 0.5rem 0rem 1rem 0rem;
+}
+
+.labelInput{
+    display: flex; 
+    flex-direction: column;
+}
+
+.linkElement{
+    margin: 0.5rem 0rem;
+}
+
+.linkElement a{
+    color: blue;
+}
